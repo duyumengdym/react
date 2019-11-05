@@ -17,18 +17,20 @@ export default class App extends Component {
                     <Header/>
                 </div>
                 <div id="main">
-                    <div className="left">
-                        <Switch>
-                        {/* <Route path='/home' component={Home}/> */}
-                        <Route path='/start' component={Start}/>
-                        <Route path='/api' component={Api}/>
-                        <Route path='/about' component={About}/>
-                        <Route path='/login' component={Login}/>
-                        <Route path='/content/:id' component={Content}/>
-                        <Route path='/' component={Home}/>
-                        </Switch>
-                    </div>
                     <Right/>
+                    <div id="content">
+                        <div className="panel">
+                            <Switch>
+                            {/* <Route path='/home' component={Home}/> */}
+                            <Route path='/start' component={Start}/>
+                            <Route path='/api' component={Api}/>
+                            <Route path='/about' component={About}/>
+                            <Route path='/login' component={Login}/>
+                            <Route path='/content/:id' component={Content}/>
+                            <Route path='/' component={Home}/>
+                            </Switch>
+                        </div>
+                    </div>
                 </div>
                 <div id="backtotop">回到顶部</div>
                 <Footer/>
