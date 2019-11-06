@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Link,NavLink} from 'react-router-dom';
-export default class Page extends Component {
+export default class All extends Component {
     constructor(){
         super();
         this.state={

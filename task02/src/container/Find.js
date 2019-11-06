@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Link,NavLink} from 'react-router-dom';
-export default class Jing extends Component {
+export default class Find extends Component {
     constructor(){
         super();
         this.state={
