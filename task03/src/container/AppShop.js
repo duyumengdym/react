@@ -33,11 +33,10 @@ export default class AppShop extends Component {
                     ]}
                     >商城
                 </NavBar>
-                {/* <div style={{position:'absolute',top:'7.5%',width:'100%',backgroundColor:'#fff',background:"rgba(36,41,44,0.5)",height:'44px',color:'#fff'}}>
-                    <i className="iconfont icon-home-copy" style={{position:"absolute",top:"50%",width:'6%',height:'70%'}}></i>
-                    <SearchBar placeholder="输入关键字搜索" style={{position:"absolute",width:'100%',left:"7%",background:"rgba(36,41,44,0.5)",textAlign: "left",zIndex:'0'}}/>
-                </div> */}
-                <SearchBar placeholder="输入关键字搜索" style={{position:"absolute",width:'100%',left:"0%",background:"rgba(36,41,44,0.5)",textAlign: "left",zIndex:'0'}}/>
+                <div style={{width:'44px',background:"rgba(36,41,44,0.5)",zIndex:'0'}}>
+                    <i style={{position:"absolute",height:'44px',padding:'2% 0 0 3%',float:'left',width:'10%',background:"rgba(36,41,44,0.5)",zIndex:'0'}}className="iconfont icon-caidan"></i>
+                    <SearchBar placeholder="输入关键字搜索" style={{position:"absolute",width:'90%',left:"10%",background:"rgba(36,41,44,0.5)",textAlign: "left",zIndex:'0'}}/>
+                </div>
                 <Carousel
                         autoplay={true}
                         infinite

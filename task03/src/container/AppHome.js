@@ -46,7 +46,7 @@ export default class AppHome extends Component {
                         <div style={{position:'relative',}}>
                         <img src={dataItem.icon} style={{ width: '80%', height: '80%',position:"relative"}} alt="" />
                             <div id="bg" style=
-                            {{position:"absolute",backgroundColor: "rgba(245,245,249,0.1)",width: '100%',height: '100%',left:0,top: '50%',textAlign:"center"}}>
+                            {{position:"absolute",width: '100%',height: '100%',left:0,top: '50%',textAlign:"center"}}>
                                 <span style={{color:"#ffffff"}}>{dataItem.content}</span>
                             </div>
                         </div>
